@@ -1,4 +1,4 @@
-# 📄 RAG Chatbot for Research Papers (LLM-powered)
+#  RAG Chatbot for Research Papers (LLM-powered)
 
 This project is a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about research papers and receive grounded answers with source citations.
 
