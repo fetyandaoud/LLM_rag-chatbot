@@ -2,20 +2,20 @@
 
 This project is a Retrieval-Augmented Generation (RAG) system that allows users to ask questions about research papers and receive grounded answers with source citations.
 
-## 🚀 Features
+##  Features
 
-- 📚 Upload and index PDF research papers
-- 🔍 Semantic search using embeddings (SentenceTransformers)
-- ⚡ Fast vector retrieval with ChromaDB
-- 🎯 Re-ranking with Cross-Encoder for improved accuracy
-- 🧠 LLM-powered answers using Google Gemini
-- 📎 Source-grounded responses with page references
-- 💬 Conversational memory for follow-up questions
-- 🌐 Interactive UI with Streamlit
+-  Upload and index PDF research papers
+-  Semantic search using embeddings (SentenceTransformers)
+-  Fast vector retrieval with ChromaDB
+-  Re-ranking with Cross-Encoder for improved accuracy
+-  LLM-powered answers using Google Gemini
+-  Source-grounded responses with page references
+-  Conversational memory for follow-up questions
+-  Interactive UI with Streamlit
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 User Question  
 → Embedding (bi-encoder)  
@@ -28,7 +28,7 @@ User Question
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - ChromaDB (vector database)
@@ -39,14 +39,14 @@ User Question
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/rag-chatbot.git
 cd rag-chatbot
 pip install -r requirements.txt
 
-## 🧠 LLM Integration
+##  LLM Integration
 
 The system uses a Large Language Model (Google Gemini) to generate answers based strictly on retrieved context, ensuring:
 
